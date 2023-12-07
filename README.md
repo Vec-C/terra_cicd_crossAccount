@@ -14,8 +14,8 @@ Replace the values with your AWS SOURCE Access and Secret keys.
 
 In the terminal at the create_repo directory level type:
 
-terraform init
-terraform plan -var-file="secrets.tf"
+terraform init\
+terraform plan -var-file="secrets.tf"\
 terraform apply -var-file="secrets.tf"
 
 ____________________________________________
