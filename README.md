@@ -7,7 +7,7 @@ Inside the main.tf file at root level replace the <<PROFILE>> tag with the profi
 Create a file inside the create_repo directory named secrets.tf with the following structure:
 
 #PROFILE
-aws-access-key = "XXXXXXXXXXXXX"
+aws-access-key = "XXXXXXXXXXXXX"\
 aws-secret-key = "XXXXXXXXXXXXXXXXXX"
 
 Replace the values with your AWS SOURCE Access and Secret keys.
