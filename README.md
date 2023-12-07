@@ -2,7 +2,7 @@
 
 With the aws-cli tool configure a DESTINATION account profile.
 
-> sudo aws configure --profile PROFILE
+> sudo aws configure --profile ***PROFILE***
 
 Inside the main.tf file at root level replace the ***PROFILE*** tag with the profile name.
 
