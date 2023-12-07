@@ -2,6 +2,8 @@
 
 With the aws-cli tool configure a DESTINATION account profile.
 
+> sudo aws configure --profile PROFILE
+
 Inside the main.tf file at root level replace the ***PROFILE*** tag with the profile name.
 
 Create a file inside the create_repo directory named secrets.tf with the following structure:
