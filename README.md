@@ -22,5 +22,5 @@ ____________________________________________
 
 Verify that the owners of the access keys has being properly configured to use the policies inside the iam-policies directory.
 
-DESTINATION: account where a pipeline will be triggered by a new commit (prod).
+DESTINATION: account where a pipeline will be triggered by a new commit (prod).\
 SOURCE:      account where the repository is created (dev).
