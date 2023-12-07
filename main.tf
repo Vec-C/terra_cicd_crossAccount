@@ -24,7 +24,7 @@ module "unique_label" {
 
 provider "aws" {
   alias   = "destination"
-  profile = "core-prod"
+  profile = "<<PROFILE>>"
   region  = "us-east-1"
 }
 
